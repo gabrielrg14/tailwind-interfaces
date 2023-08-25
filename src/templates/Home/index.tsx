@@ -9,7 +9,7 @@ const HomeTemplate = () => {
                 <title>Tailwind Interfaces</title>
             </Head>
 
-            <main className={`h-screen bg-background`}>
+            <main className="h-screen bg-background">
                 <section className="container h-full mx-auto flex flex-col lg:flex-row items-center justify-center">
                     <div className="p-4">
                         <h1 className="text-4xl text-theme font-bold font-mono mb-1">
@@ -36,24 +36,26 @@ const HomeTemplate = () => {
                             </p>
                         </Link>
                         <Link
-                            href=""
+                            href="/spotify"
                             className="rounded-lg bg-zinc-50 border-2 border-theme p-3"
                         >
-                            <h2 className="text-2xl font-semibold mb-1 opacity-50">
+                            <h2 className="text-2xl font-semibold mb-1">
                                 Spotify
                             </h2>
-                            <p className="text-sm opacity-50">
-                                Work in progress...
+                            <p className="text-sm">
+                                Spotify Desktop App Homepage
                             </p>
                         </Link>
                         <Link
-                            href=""
+                            href="#"
                             className="rounded-lg bg-zinc-50 border-2 border-theme p-3"
                         >
                             <h2 className="text-2xl font-semibold mb-1 opacity-50">
                                 Instagram
                             </h2>
-                            <p className="text-sm opacity-50">Coming soon...</p>
+                            <p className="text-sm opacity-50">
+                                Work in progress...
+                            </p>
                         </Link>
                     </div>
                 </section>

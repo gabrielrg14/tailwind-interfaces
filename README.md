@@ -2,6 +2,7 @@
 
 > Interfaces (re)created using TailwindCSS to practice the framework.
 
-**Implementend Interfaces so far:** <br>
+**Implemented Interfaces so far:** <br>
 
-- Resort Landing Page
+- [Resort Landing Page](https://tailwind.gabrielrapucci.com.br/resort)
+- [Spotify Desktop Homepage](https://tailwind.gabrielrapucci.com.br/spotify)

@@ -47,15 +47,13 @@ const HomeTemplate = () => {
                             </p>
                         </Link>
                         <Link
-                            href="#"
+                            href="/instagram"
                             className="rounded-lg bg-zinc-50 border-2 border-theme p-3"
                         >
-                            <h2 className="text-2xl font-semibold mb-1 opacity-50">
+                            <h2 className="text-2xl font-semibold mb-1">
                                 Instagram
                             </h2>
-                            <p className="text-sm opacity-50">
-                                Work in progress...
-                            </p>
+                            <p className="text-sm">Instagram Web feed</p>
                         </Link>
                     </div>
                 </section>

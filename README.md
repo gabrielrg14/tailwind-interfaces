@@ -6,3 +6,4 @@
 
 - [Resort Landing Page](https://tailwind.gabrielrapucci.com.br/resort)
 - [Spotify Desktop Homepage](https://tailwind.gabrielrapucci.com.br/spotify)
+- [Instagram Web feed](https://tailwind.gabrielrapucci.com.br/instagram)

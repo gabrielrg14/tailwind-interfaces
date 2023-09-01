@@ -176,7 +176,7 @@ const SpotifyTemplate = () => {
                                         <path d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z" />
                                     </svg>
                                 </div>
-                                <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer border-2 border-black text-white hover:scale-105">
+                                <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer border-2 border-black hover:scale-105">
                                     <Image
                                         src="/img/spotify/profile.jpg"
                                         width={360}

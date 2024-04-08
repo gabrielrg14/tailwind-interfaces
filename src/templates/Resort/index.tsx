@@ -1,12 +1,20 @@
-import Head from "next/head"
+import { NextSeo } from "next-seo"
 import Image from "next/image"
 
 const ResortTemplate = () => {
     return (
         <>
-            <Head>
-                <title>Resort</title>
-            </Head>
+            <NextSeo
+                title="Resort"
+                description="Interface for a resort landing page using Tailwind CSS."
+                additionalMetaTags={[
+                    {
+                        name: "keywords",
+                        content: `Interface, Resort, Landing Page, Tailwind, CSS`
+                    }
+                ]}
+                canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/resort`}
+            />
 
             <div className="bg-gray-50 text-gray-600">
                 <header>

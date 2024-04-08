@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tailwind.gabrielrapucci.com.br/
+
+# Sitemaps
+Sitemap: https://tailwind.gabrielrapucci.com.br/sitemap.xml

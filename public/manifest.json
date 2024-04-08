@@ -1,0 +1,23 @@
+{
+    "name": "Tailwind Interfaces",
+    "short_name": "Tailwind Interfaces",
+    "icons": [
+        {
+            "src": "/images/home/tailwind.svg",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/home/tailwind.svg",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "background_color": "#161817",
+    "theme_color": "#18a330",
+    "description": "Interfaces (re)created using TailwindCSS to practice the framework.",
+    "display": "fullscreen",
+    "start_url": "/"
+}

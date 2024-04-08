@@ -1,12 +1,20 @@
-import Head from "next/head"
+import { NextSeo } from "next-seo"
 import Image from "next/image"
 
 const InstagramTemplate = () => {
     return (
         <>
-            <Head>
-                <title>Instagram</title>
-            </Head>
+            <NextSeo
+                title="Instagram"
+                description="Instagram Web Feed interface redesign using Tailwind CSS."
+                additionalMetaTags={[
+                    {
+                        name: "keywords",
+                        content: `Instagram, Web, Feed, Interface, Redesign, Tailwind, CSS`
+                    }
+                ]}
+                canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/instagram`}
+            />
 
             <div className="flex relative">
                 <header className="md:hidden fixed z-10 left-0 top-0 h-16 w-full bg-white border-b border-gray-300">

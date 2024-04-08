@@ -1,12 +1,20 @@
-import Head from "next/head"
+import { NextSeo } from "next-seo"
 import Image from "next/image"
 
 const SpotifyTemplate = () => {
     return (
         <>
-            <Head>
-                <title>Spotify</title>
-            </Head>
+            <NextSeo
+                title="Spotify"
+                description="Spotify Desktop homepage interface redesign using Tailwind CSS."
+                additionalMetaTags={[
+                    {
+                        name: "keywords",
+                        content: `Spotify, Desktop, Homepage, Interface, Redesign, Tailwind, CSS`
+                    }
+                ]}
+                canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/spotify`}
+            />
 
             <div className="h-screen flex flex-col text-zinc-50">
                 <div className="flex flex-1 pb-52 sm:pb-24 md:pb-20 bg-zinc-950">

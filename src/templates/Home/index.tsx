@@ -1,13 +1,21 @@
-import Head from "next/head"
+import { NextSeo } from "next-seo"
 import Image from "next/image"
 import Link from "next/link"
 
 const HomeTemplate = () => {
     return (
         <>
-            <Head>
-                <title>Tailwind Interfaces</title>
-            </Head>
+            <NextSeo
+                title="Tailwind Interfaces"
+                description="Interfaces (re)created using TailwindCSS to practice the framework."
+                additionalMetaTags={[
+                    {
+                        name: "keywords",
+                        content: "Tailwind, Interfaces, CSS, Framework, Pages"
+                    }
+                ]}
+                canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/`}
+            />
 
             <main className="h-screen bg-background">
                 <section className="container h-full mx-auto flex flex-col lg:flex-row items-center justify-center">

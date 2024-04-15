@@ -132,7 +132,7 @@ const InstagramTemplate = () => {
                         </a>
                         <a href="#" className="group p-3">
                             <Image
-                                src="/img/instagram/profile.jpg"
+                                src="/img/home/profile.jpg"
                                 className="rounded-full overflow-hidden group-hover:scale-105 duration-150"
                                 width={28}
                                 height={28}
@@ -313,7 +313,7 @@ const InstagramTemplate = () => {
                             className="group flex items-center justify-center xl:justify-start gap-4 p-3 rounded-lg hover:bg-zinc-100"
                         >
                             <Image
-                                src="/img/instagram/profile.jpg"
+                                src="/img/home/profile.jpg"
                                 className="rounded-full overflow-hidden group-hover:scale-105 duration-150"
                                 width={28}
                                 height={28}
@@ -1226,7 +1226,7 @@ const InstagramTemplate = () => {
                                 <div className="flex items-center gap-4">
                                     <a href="#">
                                         <Image
-                                            src="/img/instagram/profile.jpg"
+                                            src="/img/home/profile.jpg"
                                             className="rounded-full overflow-hidden"
                                             width={56}
                                             height={56}

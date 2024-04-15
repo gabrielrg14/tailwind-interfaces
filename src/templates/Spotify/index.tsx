@@ -186,7 +186,7 @@ const SpotifyTemplate = () => {
                                 </div>
                                 <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer border-2 border-black hover:scale-105">
                                     <Image
-                                        src="/img/spotify/profile.jpg"
+                                        src="/img/home/profile.jpg"
                                         width={360}
                                         height={640}
                                         alt="Profile picture"

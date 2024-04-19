@@ -16,7 +16,7 @@ const InstagramTemplate = () => {
                 canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/instagram`}
             />
 
-            <div className="flex relative">
+            <div id="instagram" className="flex relative">
                 <header className="md:hidden fixed z-10 left-0 top-0 h-16 w-full bg-white border-b border-gray-300">
                     <nav className="h-full flex items-center justify-between gap-4 px-4 mr-auto">
                         <a href="#">

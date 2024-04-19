@@ -16,7 +16,7 @@ const ResortTemplate = () => {
                 canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/resort`}
             />
 
-            <div className="bg-gray-50 text-gray-600">
+            <div id="resort" className="bg-gray-50 text-gray-600">
                 <header>
                     <nav className="container max-w-5xl flex items-center justify-between mx-auto px-4 h-28 sm:h-24 text-black">
                         <div className="text-2xl font-bold">Resort</div>

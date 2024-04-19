@@ -16,7 +16,7 @@ const SpotifyTemplate = () => {
                 canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/spotify`}
             />
 
-            <div className="h-screen flex flex-col text-zinc-50">
+            <div id="spotify" className="h-screen flex flex-col text-zinc-50">
                 <div className="flex flex-1 pb-52 sm:pb-24 md:pb-20 bg-zinc-950">
                     <aside className="w-24 sm:w-44 md:w-56 xl:w-72 bg-zinc-950 p-6">
                         <svg

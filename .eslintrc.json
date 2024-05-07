@@ -15,12 +15,16 @@
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:prettier/recommended",
+      "plugin:cypress/recommended",
       "next"
     ],
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
       "react/prop-types": "off",
       "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/explicit-module-boundary-types": "off"
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "cypress/no-force": "error",
+      "cypress/assertion-before-screenshot": "error",
+      "cypress/no-pause": "error"
     }
 }

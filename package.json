@@ -1,7 +1,9 @@
 {
   "name": "tailwind-interfaces",
   "version": "0.1.0",
+  "description": "Interfaces (re)created using TailwindCSS to practice the framework.",
   "private": true,
+  "author": "Gabriel Rapucci Gonzalez <gabrielrapuccigonzalez14@hotmail.com> (https://gabrielrapucci.com.br)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -31,6 +33,7 @@
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-cypress": "^3.2.0",
     "eslint-plugin-prettier": "^5.0.0",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.4.35",

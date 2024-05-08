@@ -1,9 +1,25 @@
 {
   "name": "tailwind-interfaces",
-  "version": "0.1.0",
-  "description": "Interfaces (re)created using TailwindCSS to practice the framework.",
+  "version": "1.0.0",
   "private": true,
+  "description": "Interfaces (re)created using TailwindCSS to practice the framework.",
   "author": "Gabriel Rapucci Gonzalez <gabrielrapuccigonzalez14@hotmail.com> (https://gabrielrapucci.com.br)",
+  "homepage": "https://tailwind.gabrielrapucci.com.br",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielrg14/tailwind-interfaces"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielrg14/tailwind-interfaces/issues"
+  },
+  "keywords": [
+    "tailwind",
+    "interfaces",
+    "tailwind-interfaces",
+    "front-end",
+    "portfolio"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -35,6 +51,8 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-cypress": "^3.2.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^5.0.0-canary-7118f5dd7-20230705",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.4.35",
     "prettier": "^3.0.2",

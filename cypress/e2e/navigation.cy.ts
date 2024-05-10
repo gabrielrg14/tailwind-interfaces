@@ -1,4 +1,4 @@
-/// <reference path="../support/commands.d.ts" />
+/// <reference types="../support/commands.d.ts" />
 
 describe("Interface navigation", () => {
     it("navigate to the resort page", () => {

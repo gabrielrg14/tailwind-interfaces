@@ -1,8 +1,8 @@
-Cypress.Commands.add("accessAndCheckInterface", (name: string) => {
+Cypress.Commands.add("accessAndCheckInterface", (urlPath: string) => {
     cy.visit("/")
 
-    cy.get(`a[href="/${name}"]`).click()
+    cy.get(`a[href="/${urlPath}"]`).click()
 
-    cy.get(`#${name}`).should("be.visible")
-    cy.url().should("include", `/${name}`)
+    cy.get(`#${urlPath}`).should("be.visible")
+    cy.url().should("include", `/${urlPath}`)
 })
